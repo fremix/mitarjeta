@@ -1,11 +1,23 @@
+body {
+    background-color: whitesmoke;
+}
+
 .perfilin {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 14px;
     padding-top: 2rem;
+    display: grid;
+}
+
+
+
+.fei {
+    border-radius: 20px;
 }
 
 .nombre {
     font-weight: 700;
     color: darkslategrey;
+    border-radius: 15px;
 }

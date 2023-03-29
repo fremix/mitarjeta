@@ -1,5 +1,9 @@
-body {
-    background-color: whitesmoke;
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+.imagen {
+    text-align: center;
 }
 
 .perfilin {
@@ -9,9 +13,13 @@ body {
     padding-top: 2rem;
     display: grid;
 }
+ p{
+    margin: 5px;
+ }
 
-
-
+ .social {
+    padding: 20px;
+ }
 .fei {
     border-radius: 20px;
 }
@@ -20,4 +28,9 @@ body {
     font-weight: 700;
     color: darkslategrey;
     border-radius: 15px;
+}
+
+a {
+    display: grid;
+    text-align: center;
 }

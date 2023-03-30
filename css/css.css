@@ -1,36 +1,91 @@
 * {
     background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+}
+
+section {
+    position: relative; /* le dice a un elemento que se mueva con respecto a otro elemento. (activa la opcion de top) mas abajo se explica) */
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    top: 130px; /* este estilo se activa con una posicion relativa, indicanto un margen superior*/
+    border: 2px solid white; /* agrega un corde de 2px color blanco en forma de linea */
 }
 
 .imagen {
     text-align: center;
+    width: 200px; /* indica el ancho de un elemento */
+    height: 200px; /* indica el alto */ 
+    border-radius: 10%; /* crea un borde redondo indicado en % , para lograr un circulo */
+    display: block; /* Le dice a cada elemento como debe comportarse como bloque o lineal*/
+    margin: 0 auto; 
+    border: 2px solid black;
 }
 
 .perfilin {
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
     font-size: 14px;
+    color: rgb(44, 22, 168);
     padding-top: 2rem;
     display: grid;
 }
- p{
-    margin: 5px;
- }
 
- .social {
-    padding: 20px;
- }
-.fei {
-    border-radius: 20px;
+p{
+    margin: 5px;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    padding-top: 2rem;
 }
 
 .nombre {
     font-weight: 700;
     color: darkslategrey;
     border-radius: 15px;
+    font-weight: bold;
+}
+
+ .social {
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto; /*  Centra un elemento de tipo bloque */
 }
 
 a {
-    display: grid;
+    padding: 5px;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500; 
+    border-radius: 20px;
+    color: black;
+    display: block;
     text-align: center;
+    text-decoration-line: none;
+}
+
+.instagram {
+    background-color: rgb(251, 144, 105);
+}
+.instagram:hover {
+    background-color: orangered;
+    position: relative;
+    bottom: 1px;
+}
+
+.fb {
+    background-color: rgb(142, 164, 254);
+}
+.fb:hover {
+    background-color: rgb(38, 78, 237);
+    position: relative;
+    bottom: 1px;
+}
+
+.linki {
+    background-color: rgb(99, 123, 220);
+}
+
+.tui {
+    background-color: rgb(48, 200, 255);
 }

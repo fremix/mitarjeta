@@ -3,6 +3,8 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet');
+
 section {
     position: relative; /* le dice a un elemento que se mueva con respecto a otro elemento. (activa la opcion de top) mas abajo se explica) */
     display: block;
